@@ -13,5 +13,6 @@ def about():
     return "<h1>About Page</h1>"
 
 
+### When lauched from the command line, the script is run in debug mode
 if __name__ == '__main__':
     app.run(debug=True)
